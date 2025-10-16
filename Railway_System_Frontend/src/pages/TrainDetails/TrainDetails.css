@@ -1,0 +1,97 @@
+/* src/pages/TrainDetails/TrainDetails.css */
+
+.train-details-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.train-details-container .card {
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.train-details-container .card-title {
+  color: #2c3e50;
+  font-weight: 600;
+}
+
+.info-card {
+  padding: 1rem;
+  border: 1px solid #e9ecef;
+  border-radius: 8px;
+  background-color: #f8f9fa;
+}
+
+.info-card h6 {
+  font-size: 0.875rem;
+  margin-bottom: 0.5rem;
+}
+
+.booking-summary {
+  background-color: #f8f9fa;
+  padding: 1.5rem;
+  border-radius: 8px;
+  border: 1px solid #e9ecef;
+}
+
+.booking-summary h5 {
+  color: #2c3e50;
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+
+.summary-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 0;
+  border-bottom: 1px solid #e9ecef;
+}
+
+.summary-item:last-child {
+  border-bottom: none;
+}
+
+.summary-item span:first-child {
+  color: #6c757d;
+  font-weight: 500;
+}
+
+.summary-item span:last-child {
+  font-weight: 600;
+  color: #2c3e50;
+}
+
+.train-details-container .table {
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.train-details-container .table th {
+  background-color: #f8f9fa;
+  border-bottom: 2px solid #dee2e6;
+  font-weight: 600;
+  color: #495057;
+}
+
+.train-details-container .table td {
+  vertical-align: middle;
+}
+
+.train-details-container .btn-primary {
+  border-radius: 8px;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  padding: 0.75rem 2rem;
+}
+
+.train-details-container .btn-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 123, 255, 0.3);
+}
+
+.badge {
+  font-size: 0.875rem;
+  padding: 0.5rem 0.75rem;
+}

@@ -1,0 +1,17 @@
+/* src/assets/styles/global.css */
+body {
+  background: #f4f7fb;
+  font-family: Inter, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+}
+
+.home-hero {
+  margin-bottom: 20px;
+}
+
+.card {
+  border-radius: 12px;
+}
+
+.navbar-brand {
+  font-weight: 700;
+}

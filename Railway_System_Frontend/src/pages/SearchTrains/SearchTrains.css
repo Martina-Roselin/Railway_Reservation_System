@@ -1,0 +1,59 @@
+.search-trains-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.search-trains-container .card {
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.search-trains-container .card-title {
+  color: #2c3e50;
+  font-weight: 600;
+}
+
+.search-trains-container .form-control {
+  border-radius: 8px;
+  border: 2px solid #e9ecef;
+  transition: border-color 0.3s ease;
+}
+
+.search-trains-container .form-control:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+.search-trains-container .btn-primary {
+  border-radius: 8px;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.search-trains-container .btn-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 123, 255, 0.3);
+}
+
+.search-trains-container .table {
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.search-trains-container .table th {
+  background-color: #f8f9fa;
+  border-bottom: 2px solid #dee2e6;
+  font-weight: 600;
+  color: #495057;
+}
+
+.search-trains-container .table td {
+  vertical-align: middle;
+}
+
+.search-trains-container .btn-outline-primary {
+  border-radius: 6px;
+  font-weight: 500;
+}
+

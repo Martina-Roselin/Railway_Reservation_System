@@ -1,0 +1,87 @@
+.payment-page-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.payment-page-container .card {
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.payment-page-container .card-title {
+  color: #2c3e50;
+  font-weight: 600;
+}
+
+.payment-page-container .form-control {
+  border-radius: 8px;
+  border: 2px solid #e9ecef;
+  transition: border-color 0.3s ease;
+}
+
+.payment-page-container .form-control:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+.payment-page-container .form-check-input:checked {
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+.payment-page-container .btn-success {
+  border-radius: 8px;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  padding: 0.75rem 2rem;
+}
+
+.payment-page-container .btn-success:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(40, 167, 69, 0.3);
+}
+
+.payment-page-container .btn-success:disabled {
+  transform: none;
+  box-shadow: none;
+}
+
+.booking-details {
+  font-size: 0.9rem;
+}
+
+.detail-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 0;
+  border-bottom: 1px solid #e9ecef;
+}
+
+.detail-item:last-child {
+  border-bottom: none;
+}
+
+.detail-item span:first-child {
+  color: #6c757d;
+  font-weight: 500;
+}
+
+.detail-item span:last-child {
+  font-weight: 500;
+  color: #2c3e50;
+}
+
+.detail-item.total {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-top: 1rem;
+  padding-top: 1rem;
+  border-top: 2px solid #dee2e6;
+}
+
+.detail-item.total span:last-child {
+  font-size: 1.2rem;
+}
+

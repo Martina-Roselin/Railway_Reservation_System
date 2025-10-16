@@ -1,0 +1,205 @@
+/* Admin Register Page Styles */
+.admin-register-container {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  padding: 2rem 0;
+}
+
+.admin-register-container .card {
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+}
+
+.admin-register-container .card-header {
+  background: linear-gradient(135deg, #007bff 0%, #0056b3 100%);
+  border: none;
+  padding: 2rem 1.5rem;
+}
+
+.admin-register-container .card-title {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+.admin-register-container .card-body {
+  padding: 2rem;
+}
+
+.admin-register-container .form-control {
+  border-radius: 10px;
+  border: 2px solid #e9ecef;
+  padding: 0.75rem 1rem;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+}
+
+.admin-register-container .form-control:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+  transform: translateY(-2px);
+}
+
+.admin-register-container .form-control-lg {
+  padding: 1rem 1.25rem;
+  font-size: 1.1rem;
+}
+
+.admin-register-container .form-label {
+  font-weight: 600;
+  color: #2c3e50;
+  margin-bottom: 0.75rem;
+}
+
+.admin-register-container .form-text {
+  color: #6c757d;
+  font-size: 0.875rem;
+  margin-top: 0.5rem;
+}
+
+.admin-register-container .btn {
+  border-radius: 10px;
+  font-weight: 600;
+  padding: 0.875rem 2rem;
+  font-size: 1.1rem;
+  transition: all 0.3s ease;
+  text-transform: none;
+}
+
+.admin-register-container .btn-primary {
+  background: linear-gradient(135deg, #007bff 0%, #0056b3 100%);
+  border: none;
+  box-shadow: 0 4px 15px rgba(0, 123, 255, 0.3);
+}
+
+.admin-register-container .btn-primary:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 20px rgba(0, 123, 255, 0.4);
+}
+
+.admin-register-container .btn-primary:disabled {
+  transform: none;
+  box-shadow: 0 4px 15px rgba(0, 123, 255, 0.3);
+  opacity: 0.7;
+}
+
+.admin-register-container .btn-outline-secondary {
+  border: 2px solid #6c757d;
+  color: #6c757d;
+  background: transparent;
+}
+
+.admin-register-container .btn-outline-secondary:hover {
+  background: #6c757d;
+  border-color: #6c757d;
+  color: white;
+  transform: translateY(-2px);
+}
+
+.admin-register-container .alert {
+  border-radius: 10px;
+  border: none;
+  padding: 1rem 1.25rem;
+  margin-bottom: 1.5rem;
+}
+
+.admin-register-container .alert-info {
+  background: linear-gradient(135deg, #d1ecf1 0%, #bee5eb 100%);
+  color: #0c5460;
+  border-left: 4px solid #17a2b8;
+}
+
+.admin-register-container .alert-danger {
+  background: linear-gradient(135deg, #f8d7da 0%, #f5c6cb 100%);
+  color: #721c24;
+  border-left: 4px solid #dc3545;
+}
+
+.admin-register-container .alert-success {
+  background: linear-gradient(135deg, #d4edda 0%, #c3e6cb 100%);
+  color: #155724;
+  border-left: 4px solid #28a745;
+}
+
+.admin-register-container .alert-heading {
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+.admin-register-container .card-footer {
+  background: #f8f9fa;
+  border-top: 1px solid #e9ecef;
+  padding: 1rem 1.5rem;
+}
+
+.admin-register-container .card-footer small {
+  font-size: 0.875rem;
+  color: #6c757d;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .admin-register-container {
+    padding: 1rem 0;
+  }
+  
+  .admin-register-container .card-body {
+    padding: 1.5rem;
+  }
+  
+  .admin-register-container .card-header {
+    padding: 1.5rem 1rem;
+  }
+  
+  .admin-register-container .card-title {
+    font-size: 1.5rem;
+  }
+  
+  .admin-register-container .btn {
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+  }
+}
+
+/* Animation for form elements */
+.admin-register-container .form-control,
+.admin-register-container .btn {
+  animation: fadeInUp 0.6s ease-out;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Loading state enhancements */
+.admin-register-container .spinner-border {
+  width: 1.2rem;
+  height: 1.2rem;
+}
+
+/* Focus states for accessibility */
+.admin-register-container .form-control:focus,
+.admin-register-container .btn:focus {
+  outline: none;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+/* Hover effects for interactive elements */
+.admin-register-container .form-control:hover {
+  border-color: #007bff;
+}
+
+.admin-register-container .btn:hover {
+  transform: translateY(-2px);
+}
+
+
